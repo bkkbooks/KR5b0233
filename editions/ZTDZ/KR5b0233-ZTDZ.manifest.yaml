@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0233/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0233/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞玄靈寶玉籙簡文三元威儀自然真經
+  date: '2015-08-29 00:14:35.222906'
+  source:
+    repository: kanripo
+    path: KR5b0233
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0233_000-ZTDZ.yaml, hash: 'sha256:40d97199bc73d97e4fe6493777dee212028c81133d0d337e10aab110c96149ea'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0233_000-ZTDZ.markers.yaml, hash: 'sha256:d48b6c63d22aa5cf3cc8ab568ce3cacc35bce5a3f219945997c94515a7df000d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0233_SJB_000-090861b
+    span:
+    - body
+    - 0
+    - 3009
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:7c2694250736520d558baf9eec78a3f7f912bbbe812b73e642bd17c298fc9911
